@@ -10,7 +10,7 @@ permissions:
   security-events: write
 jobs:
   create-fix-pull-requests:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         # The repository scanning will be triggered periodically on the following branches.

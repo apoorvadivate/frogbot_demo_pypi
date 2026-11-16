@@ -75,8 +75,8 @@ jobs:
 
           # [Optional]
           # JFrog project. Learn more about it here: https://www.jfrog.com/confluence/display/JFROG/Projects
-          JF_PROJECT: "apoorvad-test-project"
-          JF_WATCHES: "apoorvadv3"
+          JF_PROJECT: "apoorvad-secgit"
+          # JF_WATCHES: "apoorvadv3"
 
           # [Optional, default: "TRUE"]
           # Fails the Frogbot task if any security issue is found.
